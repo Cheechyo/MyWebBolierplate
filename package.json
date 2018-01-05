@@ -20,6 +20,7 @@
   "homepage": "https://github.com/Cheechyo/MyWebBolierplate#readme",
   "devDependencies": {
     "css-loader": "^0.28.7",
+    "file-loader": "^1.1.6",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.9.2",
     "gulp-concat": "^2.6.1",
