@@ -5,24 +5,29 @@
   "main": "index.js",
   "scripts": {
     "start": "gulp default",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Cheechyo/MyNote.git"
+    "url": "git+https://github.com/Cheechyo/MyWebBolierplate.git"
   },
   "author": "Cheechyo <kwj9211@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Cheechyo/MyNote/issues"
+    "url": "https://github.com/Cheechyo/MyWebBolierplate/issues"
   },
-  "homepage": "https://github.com/Cheechyo/MyNote#readme",
+  "homepage": "https://github.com/Cheechyo/MyWebBolierplate#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.9.2",
     "gulp-concat": "^2.6.1",
     "gulp-connect": "^5.2.0",
     "gulp-uglify": "^3.0.0",
-    "gulp-watch": "^4.3.11"
+    "gulp-watch": "^4.3.11",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
   }
 }
