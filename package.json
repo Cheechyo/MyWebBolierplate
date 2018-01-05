@@ -1,28 +1,28 @@
 {
-  "name": "mynote",
+  "name": "mywebbolierplate",
   "version": "1.0.0",
   "description": "practice repo",
   "main": "index.js",
   "scripts": {
-    "start": "gulp default",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Cheechyo/MyNote.git"
+    "url": "git+https://github.com/Cheechyo/MyWebBolierplate.git"
   },
   "author": "Cheechyo <kwj9211@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Cheechyo/MyNote/issues"
+    "url": "https://github.com/Cheechyo/MyWebBolierplate/issues"
   },
-  "homepage": "https://github.com/Cheechyo/MyNote#readme",
+  "homepage": "https://github.com/Cheechyo/MyWebBolierplate#readme",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "^3.9.2",
-    "gulp-concat": "^2.6.1",
-    "gulp-connect": "^5.2.0",
-    "gulp-uglify": "^3.0.0",
-    "gulp-watch": "^4.3.11"
-  }
+    "autoprefixer": "^7.2.4",
+    "babel-preset-env": "^1.6.1",
+    "postcss-modules": "^1.1.0",
+    "posthtml-img-autosize": "^0.1.1"
+  },
+  "dependencies": {}
 }
