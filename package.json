@@ -19,12 +19,15 @@
   },
   "homepage": "https://github.com/Cheechyo/MyWebBolierplate#readme",
   "devDependencies": {
+    "css-loader": "^0.28.7",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.9.2",
     "gulp-concat": "^2.6.1",
     "gulp-connect": "^5.2.0",
     "gulp-uglify": "^3.0.0",
     "gulp-watch": "^4.3.11",
+    "lodash": "^4.17.4",
+    "style-loader": "^0.19.1",
     "webpack": "^3.10.0"
   },
   "dependencies": {

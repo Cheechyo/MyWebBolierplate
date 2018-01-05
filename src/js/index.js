@@ -1,5 +1,15 @@
 import jquery from 'jquery';
+import _ from 'lodash';
+import '../css/main.css';
 
-(function($, global){
-    $([1,2]).each(function(){console.log("hello?");});
-})(jquery, window);
+function component() {
+    var element = document.createElement('div');
+
+    // Lodash, now imported by this script
+    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+    element.classList.add('hello');
+
+    return element;
+}
+
+document.body.appendChild(component());
